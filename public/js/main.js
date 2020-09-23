@@ -20,7 +20,7 @@ get_links = function(){
 		for(var i= 0; i< fmts.length; i++){
 			if(fmts[i].acodec != "none" && fmts[i].vcodec != "none"){	
 				console.log(url);
-				table.innerHTML += `<tr> ${fmts[i].format_note} </tr> <tr> <a href=${url} download="${res.info.title}.mp4">link</a></tr>`
+				table.innerHTML += `<tr> ${fmts[i].format_note} </tr> <tr> <a href=${fmts[i].url}>link</a></tr>`
 			}
 		}
 		console.log(res.info)

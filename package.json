@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-     "build": "tsc --project ./",
-     "start": "node server.js"
+    "start": "node server.js"
   },
   "author": "stoozy",
   "license": "ISC",

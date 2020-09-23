@@ -9,5 +9,5 @@ app.get('/', (req, res) =>{
     res.redirect("/public");
 });
 
-var PORT = 8080;
+var PORT = process.env.PORT ||  8080;
 app.listen(PORT, () => console.log(`⚡️[server]: Server is running at https://localhost:${PORT}`));

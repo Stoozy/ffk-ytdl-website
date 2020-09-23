@@ -7,7 +7,7 @@ get_links = function(){
 	// reset values
 	table.innerHTML= "<tr><th>Quality</th><th>Download</th></tr>";
     input.value = "";
-    var api_url = "http://ffk-ytd.herokuapp.com/api/info?url="  + yt_url;
+    var api_url = "https://ffk-ytd.herokuapp.com/api/info?url="  + yt_url;
 
     function reqListener () {
         console.log(this.responseText);

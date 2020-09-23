@@ -12,12 +12,7 @@ get_links = function(){
     function reqListener () {
         console.log(this.responseText);
     }
-    fetch(api_url, {
-        method: 'GET',
-			headers: new Headers({
-				"Access-Control-Allow-Origin" : "*",
-			})
-    })
+    fetch(api_url)
     .then(data =>{return data.json()})
     .then(res => {
 		var fmts = res.info.formats;

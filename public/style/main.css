@@ -1,3 +1,82 @@
+/**
+    Purple: 8364FF
+    White: FFFFFF
+    Dark: 343434
+    Fill: 282828
+**/
+
 *{
     font-family: monospace;
+}
+
+body, html {
+    background-color: #282828;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    position: absolute;
+    top: -10px;
+    left: 2vw;
+    font-family: monospace;
+    color: white;
+    font-size: 3rem;
+    letter-spacing: -1px;
+    word-spacing: -10px;
+}
+
+#logo #ytd {
+    font-size: 2rem;
+    background-color: #8364FF;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    top: -5px;
+}
+
+#cr {
+    position: absolute;
+    margin-top: 5vh;
+    right: 2.5vw;
+    font-size: 3rem;
+    color: #343434;
+    font-family: 'DM Mono', monospace;
+    top: -10px;
+    letter-spacing: -2px;
+    word-spacing: 00px;
+}
+
+#input-container {
+    width: 100%;
+    position: relative;
+    top: 35vh;
+}
+
+#url {
+    background-color: #343434;
+    border: 0;
+    width: 35%;
+    height: 6vh;
+    color: white;
+    padding-left: 1.2vw;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+#submit {
+    background-color: #8364FF;
+    border: 0;
+    height: 6vh;
+    width: 5vw;
+    border-radius: 10px;
+    position: relative;
+    top: -2px;
+    color: white;
+    font-size: 1.4rem;
+    font-family: monospace;
+}
+
+table {
+    visibility: hidden;
 }

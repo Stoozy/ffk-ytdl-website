@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>FFK Youtube Video Downloader</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/main.css">
 </head>
 <script src="js/main.js"></script>
 <body>
-    <input id="url" type="text" placeholder="Enter youtube video url"/>
-    <input id="submit" onclick="get_links()" type="submit"/>
-    <table id="links">
-        <tr>
-        	<th>Quality</th>
-        	<th>Download</th>
-        </tr>
-    </table>
+    <div id="logo">
+        <h4>FFK <span id="ytd">yt-dl</span></h4>
+    </div>
+    <div id="cr">&#169; FFK</div>
+    <center>
+        <div id="input-container">
+            <input id="url" type="text" placeholder="Enter youtube video url"/>
+            <input id="submit" onclick="get_links()" type="submit"/>
+        </div>
+        <table id="links">
+            <tr>
+                <th>Quality</th>
+                <th>Download</th>
+            </tr>
+        </table>
+    </center>
 </body>
 </html>

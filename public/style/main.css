@@ -5,16 +5,19 @@
     Fill: 282828
 **/
 
+// Entire Page
 *{
     font-family: monospace;
 }
 
+// Body Styling
 body, html {
-    background-color: #282828;
-    margin: 0;
-    padding: 0;
+    background-color: #282828; // Changes Background Color
+    margin: 0; // Makes it so no margin is left over
+    padding: 0; //Makes it so no padding is left over
 }
 
+// Logo styling on the top left of page
 #logo {
     position: absolute;
     top: -10px;
@@ -26,6 +29,7 @@ body, html {
     word-spacing: -10px;
 }
 
+// Secondary Part of Logo on the top right
 #logo #ytd {
     font-size: 2rem;
     background-color: #8364FF;
@@ -34,6 +38,7 @@ body, html {
     position: relative;
     top: -5px;
 }
+
 
 #cr {
     position: absolute;
@@ -53,6 +58,7 @@ body, html {
     top: 35vh;
 }
 
+// Custom Input css for urls
 #url {
     background-color: #343434;
     border: 0;
@@ -64,6 +70,7 @@ body, html {
     border-radius: 10px;
 }
 
+// Custom css for buttons
 #submit {
     background-color: #8364FF;
     border: 0;
@@ -77,6 +84,7 @@ body, html {
     font-family: monospace;
 }
 
+// Table can't be seen
 table {
     visibility: hidden;
 }

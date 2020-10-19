@@ -1,7 +1,7 @@
 # FFK Youtube Video Downloader
 An add free youtube video downloader with a dark theme and no bloat.
 
-![alt text](https://i.imgur.com/15WjXi6.png)
+![alt text](https://cdn.discordapp.com/attachments/722600153621725215/767871605924823070/unknown.png)
 
 ## LICENSE 
 Copyright 2020 stoozy
